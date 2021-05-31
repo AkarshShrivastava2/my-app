@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    transform: translate(50%, 20%);
+    height: 50vh;
+    background: blueviolet;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.App input{
+    margin: 2rem;
+    padding: 0.2rem;
+}
+.App ul{
+    width: 20%;
+}
+.App ul li{
+    color: white;
+}
